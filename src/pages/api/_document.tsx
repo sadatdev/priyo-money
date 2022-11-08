@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-document-import-in-page */
 import React from 'react';
 import Document, { DocumentContext } from 'next/document';
 import { ServerStyleSheet } from 'styled-components';
