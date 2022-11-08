@@ -1,3 +1,4 @@
 import ArrowRightIcon from './ArrowRightIcon';
+import ArrowDownIcon from './ArrowDownIcon';
 
-export { ArrowRightIcon };
+export { ArrowRightIcon, ArrowDownIcon };

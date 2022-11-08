@@ -1,4 +1,6 @@
-const features = [
+import { IFeature } from 'types/IFeature';
+
+const features: IFeature[] = [
     {
         id: '1',
         title: 'Instant money to Bangladesh',

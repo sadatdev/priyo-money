@@ -15,6 +15,9 @@ const strings = {
 
     features: 'Features',
     register_in_mins: 'Register in minutes',
+
+    lets_ans: `Let's answer some of your questions`,
+    faq: 'Frequently asked questions',
 };
 
 export default strings;

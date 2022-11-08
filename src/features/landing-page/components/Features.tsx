@@ -22,8 +22,8 @@ const Features = () => {
 
 export default Features;
 
-const Container = tw.div`py-12 md:py-24 lg:py-32`;
+const Container = tw.div`py-12 md:py-20`;
 
 const FeaturesContainer = tw.div`grid gap-x-2 gap-y-5 sm:grid-cols-2 lg:grid-cols-4`;
 
-const FeatureTitle = tw.h3`font-semibold text-center text-black  text-2xl md:text-2xl mb-5 md:mb-12`;
+const FeatureTitle = tw.h3`font-semibold text-center text-black  text-2xl md:text-2xl mb-10 md:mb-20`;
