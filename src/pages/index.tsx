@@ -1,7 +1,8 @@
+import HelloWorld from 'components/HelloWorld';
 import React from 'react';
 
 const IndexPage = () => {
-    return <div>IndexPage</div>;
+    return <HelloWorld />;
 };
 
 export default IndexPage;
