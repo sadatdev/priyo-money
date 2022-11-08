@@ -10,6 +10,10 @@ module.exports = {
                 heroBg: '#0AA99E',
                 darkBg: '#000000',
                 offWhiteBg: '#FAFAFA',
+                border: '#64748b',
+            },
+            backgroundImage: {
+                heroImage: "url('/images/hero.png')",
             },
         },
     },
