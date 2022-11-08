@@ -12,6 +12,9 @@ const strings = {
     cardTitle: 'Priyo Visa Card',
     cardSubtitle:
         'Pay globally in USD. Shopping through any international online store i.e., Amazon, Google, Facebook, Netflix, Alibaba etc. ',
+
+    features: 'Features',
+    register_in_mins: 'Register in minutes',
 };
 
 export default strings;
