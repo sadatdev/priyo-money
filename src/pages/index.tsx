@@ -1,8 +1,8 @@
-import HelloWorld from 'components/HelloWorld';
+import LadingPage from 'features/landing-page';
 import React from 'react';
 
 const IndexPage = () => {
-    return <HelloWorld />;
+    return <LadingPage />;
 };
 
 export default IndexPage;
