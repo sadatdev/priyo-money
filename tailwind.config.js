@@ -11,6 +11,9 @@ module.exports = {
                 darkBg: '#000000',
                 offWhiteBg: '#FAFAFA',
             },
+            backgroundImage: {
+                heroImage: "url('/images/hero.png')",
+            },
         },
     },
     plugins: [],

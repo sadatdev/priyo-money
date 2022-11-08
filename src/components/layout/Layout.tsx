@@ -4,12 +4,13 @@ import tw, { styled } from 'twin.macro';
 interface ILayoutProps {
     children: React.ReactNode;
     bgColor?: string;
+    noPadding?: boolean;
 }
 
-const Layout = ({ children, bgColor }: ILayoutProps) => {
+const Layout = ({ children, bgColor, noPadding }: ILayoutProps) => {
     return (
         <LayoutContainer bgColor={bgColor}>
-            <ContentContainer>{children}</ContentContainer>
+            <ContentContainer noPadding={noPadding}>{children}</ContentContainer>
         </LayoutContainer>
     );
 };
@@ -20,9 +21,16 @@ interface LayoutContainerProps {
     bgColor?: string;
 }
 
+interface ContentContainerProps {
+    noPadding?: boolean;
+}
+
 const LayoutContainer = styled.div(({ bgColor }: LayoutContainerProps) => [
     tw`bg-primary`,
     bgColor && `background-color: ${bgColor}`,
 ]);
 
-const ContentContainer = tw.main`max-w-7xl mx-auto p-4 xl:p-5`;
+const ContentContainer = styled.div(({ noPadding }: ContentContainerProps) => [
+    tw`max-w-7xl mx-auto `,
+    noPadding ? null : tw`p-4 md:p-6 xl:p-8`,
+]);
