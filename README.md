@@ -1,34 +1,86 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Priyo Money Landing Page
 
-## Getting Started
+## 👨‍💻 Installation and Setup Instructions
 
-First, run the development server:
+To run locally, you will need `node` and `npm` or `yarn` installed globally on your machine.
 
-```bash
-npm run dev
-# or
-yarn dev
+Install the dependencies
+
+```shell
+yarn
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+To run the project locally
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+```shell
+yarn start
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+To run tests
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```shell
+yarn test
+```
 
-## Learn More
+To view the test coverage
 
-To learn more about Next.js, take a look at the following resources:
+```shell
+yarn test:cov
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+To run eslint and prettier checks
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+```shell
+yarn lint
+```
 
-## Deploy on Vercel
+To fix eslint and prettier issues silently
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```shell
+yarn lint:fix
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<details>
+  <summary> Commands with npm</summary>
+
+Install the dependencies
+
+```shell
+npm install
+```
+
+To run project locally
+
+```shell
+npm start
+```
+
+To run tests
+
+```shell
+npm test
+```
+
+To run test coverage
+
+```shell
+npm run test:cov
+```
+
+To run eslint and prettier checks
+
+```shell
+npm run lint
+```
+
+To fix eslint and prettier issues silently
+
+```shell
+npm run lint:fix
+```
+
+</details>
+
+## Author
+
+-   [@SadatJubayer](https://www.smjubayer.me)
