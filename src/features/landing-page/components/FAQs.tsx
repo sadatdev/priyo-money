@@ -26,6 +26,6 @@ export default FAQs;
 const Container = tw.div`py-12 md:py-20`;
 
 const Subtitle = tw.p`text-center text-sm text-gray font-semibold`;
-const Title = tw.h3`font-semibold text-center text-black  text-2xl md:text-2xl mb-10 md:mb-16`;
+const Title = tw.h3`font-semibold text-center text-black  text-2xl md:text-2xl mb-10 md:mb-16 px-8`;
 
 const ContentContainer = tw.div`border border-border/30 rounded-sm shadow-md`;

@@ -25,7 +25,7 @@ export const Accordion: React.FC<AccordionProps> = ({ title, content }) => {
                 tw="py-6 box-border appearance-none cursor-pointer focus:outline-none flex items-center justify-between"
                 onClick={toggleAccordion}
             >
-                <p tw="inline-block text-dark font-medium">{title}</p>
+                <p tw="inline-block text-dark font-medium text-base">{title}</p>
                 <span tw="text-border">{active ? <ArrowDownIcon /> : <ArrowRightIcon />}</span>
             </button>
             <div
@@ -33,7 +33,7 @@ export const Accordion: React.FC<AccordionProps> = ({ title, content }) => {
                 style={{ maxHeight: `${height}` }}
                 tw="overflow-auto duration-300 ease-in-out"
             >
-                <div tw="pb-10 pl-5 text-base">{content}</div>
+                <div tw="pb-10 pl-5 text-sm md:text-base">{content}</div>
             </div>
         </div>
     );

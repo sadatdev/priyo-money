@@ -30,7 +30,7 @@ const Hero = () => {
 export default Hero;
 
 const Container = styled.div`
-    ${tw`flex flex-col py-24 md:flex-row justify-between items-center px-4 md:px-6 xl:px-8`}
+    ${tw`flex flex-col py-24 md:flex-row justify-between items-center px-4 md:px-8`}
 `;
 
 const HeroCTA = styled.div`

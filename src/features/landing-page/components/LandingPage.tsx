@@ -1,6 +1,7 @@
 import React from 'react';
 import FAQs from './FAQs';
 import Features from './Features';
+import Footer from './Footer';
 import Header from './Header';
 import Hero from './Hero';
 import PriyoVisa from './PriyoVisa';
@@ -15,6 +16,7 @@ const LandingPage = () => {
             <Features />
             <RegisterInMinutes />
             <FAQs />
+            <Footer />
         </>
     );
 };

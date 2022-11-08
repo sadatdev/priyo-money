@@ -35,7 +35,7 @@ const Subtitle = styled.h2`
 `;
 
 const Container = styled.div`
-    ${tw`flex flex-col py-20 md:py-24 md:flex-row justify-between items-center`}
+    ${tw`flex flex-col py-20 md:py-24 md:flex-row justify-between items-center px-3`}
 `;
 
 const CardImage = styled.div``;

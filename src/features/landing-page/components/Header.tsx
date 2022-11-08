@@ -23,7 +23,7 @@ const Header = () => {
 export default Header;
 
 const Container = tw.div`
-flex justify-between items-center
+flex justify-between items-center px-2.5
 `;
 
 const Title = tw.h3`
